@@ -1,0 +1,9 @@
+<p>NgClass</p>
+<p>
+    <button (click)="active=!active">Toggle active</button>
+</p>
+<span [ngClass]="active?'red-text':''">Hello</span>
+<p>active: {{active}}</p>
+
+<p>NgClass</p>
+<span [ngStyle]="{'color':active?'#f00':''}">Hello</span>
