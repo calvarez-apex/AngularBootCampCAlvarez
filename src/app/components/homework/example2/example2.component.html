@@ -1,0 +1,26 @@
+<p>NgFor</p>
+<span>
+<ul>
+    <div *ngFor="let str of strArray">
+        <li>{{str}}</li>
+    </div>
+</ul>
+</span>
+
+<p>NgIf</p>
+<ul>
+    <div *ngFor="let str of strArray">
+        <li *ngIf="str==='B'">{{str}}</li>
+    </div>
+</ul>
+
+<p>NgSwitch</p>
+<ul>
+    <div *ngFor="let str of strArray">
+        <li [ngSwitch]="str">
+            <div *ngSwitchCase="'A'">1</div>
+            <div *ngSwitchCase="'B'">2</div>
+            <div *ngSwitchCase="'C'">3</div>
+        </li>
+    </div>
+</ul>
