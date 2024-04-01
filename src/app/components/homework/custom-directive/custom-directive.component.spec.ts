@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Example3Component } from './example3.component';
+import { Example3Component } from './custom-directive.component';
 
 describe('Example3Component', () => {
   let component: Example3Component;
