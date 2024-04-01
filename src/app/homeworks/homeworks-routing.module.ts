@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Example1Component } from '../components/homework/example1/example1.component';
+import { AttributeDirectivesComponent } from '../components/homework/attribute-directives/attribute-directives.component';
 
 const routes: Routes = [
-  { path: 'example1', component: Example1Component }
+  { path: 'attribute-directives', component: AttributeDirectivesComponent }
 ];
 
 @NgModule({

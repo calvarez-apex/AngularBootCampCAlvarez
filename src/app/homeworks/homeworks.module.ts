@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeworksRoutingModule } from './homeworks-routing.module';
-import { Example1Component } from '../components/homework/example1/example1.component';
+import { AttributeDirectivesComponent } from '../components/homework/attribute-directives/attribute-directives.component';
 
 
 @NgModule({
   declarations: [
-    Example1Component
+    AttributeDirectivesComponent
   ],
   imports: [
     CommonModule,
