@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MyFirstModuleModule } from './my-first-module/my-first-module.module';
 import { HomeworksModule } from './homeworks/homeworks.module';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { HomeworksModule } from './homeworks/homeworks.module';
     MyFirstModuleModule,
     HomeworksModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
