@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CustomDirectiveComponent } from '../components/homework/custom-directive/custom-directive.component';
 
 const routes: Routes = [
-  //routes here
+  { path: 'custom-directive', component: CustomDirectiveComponent }
 ];
 
 @NgModule({
