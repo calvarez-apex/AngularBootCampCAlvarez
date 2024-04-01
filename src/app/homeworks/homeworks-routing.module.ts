@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { MaterialUIComponent } from '../components/homework/material-ui/material-ui.component';
 
 const routes: Routes = [
-  //routes here
+  { path: 'material-ui', component: MaterialUIComponent }
 ];
 
 @NgModule({
