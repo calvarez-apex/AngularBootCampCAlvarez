@@ -3,12 +3,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { HomeworksRoutingModule } from './homeworks-routing.module';
-import { Example4Component } from '../components/homework/example4/example4.component';
+import { DataBindingComponent } from '../components/homework/data-binding/data-binding.component';
 
 
 @NgModule({
   declarations: [
-    Example4Component
+    DataBindingComponent
   ],
   imports: [
     CommonModule,
