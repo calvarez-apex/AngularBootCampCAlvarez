@@ -1,0 +1,9 @@
+<p>Event Binding</p>
+<button (click)="alert('I was triggered by an event');">Click Me!</button>
+
+<p>One Way Data Binding</p>
+<input type="text" [ngModel]="dataBinding">
+
+<p>Two Way Data Binding</p>
+<span>{{dataBinding}}</span><br>
+<input type="text" [(ngModel)]="dataBinding">
