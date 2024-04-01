@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DataBindingComponent } from '../components/homework/data-binding/data-binding.component';
 
 const routes: Routes = [
-  //routes here
+  { path: 'data-binding', component: DataBindingComponent }
 ];
 
 @NgModule({
