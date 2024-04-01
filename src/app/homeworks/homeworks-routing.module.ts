@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { StructuralDirectivesComponent } from '../components/homework/structural-directives/structural-directives.component';
 
 const routes: Routes = [
-  //routes here
+  { path: 'structural-directives', component: StructuralDirectivesComponent }
 ];
 
 @NgModule({
