@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { HomeworksRoutingModule } from './homeworks-routing.module';
-import { Example2Component } from '../components/homework/example2/example2.component';
+import { StructuralDirectivesComponent } from '../components/homework/structural-directives/structural-directives.component';
 
 
 @NgModule({
   declarations: [
-    Example2Component
+    StructuralDirectivesComponent
   ],
   imports: [
     CommonModule,
