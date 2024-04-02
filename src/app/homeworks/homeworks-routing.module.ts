@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { PipesComponent } from '../components/homework/pipes/pipes.component';
 
 const routes: Routes = [
-  //routes here
+  { path: 'pipes', component: PipesComponent }
 ];
 
 @NgModule({
